@@ -81,6 +81,23 @@ Additionally, if you plan to run this project in a Jupyter Notebook or Google Co
      print(predict_image('path_to_your_image.jpg'))
      ```
 
+
+Berikut adalah cara untuk memperbarui README.md dengan hasil testing menggunakan gambar dalam direktori test_result (dengan nama file 1.jpg, 2.jpg, 3.jpg, dan 4.jpg) ditampilkan dalam format 2 baris x 2 kolom.
+
+Berikut adalah isi yang dapat Anda tambahkan di bagian bawah 4. Test a Single Image di README.md:
+
+markdown
+Copy code
+### Example Test Results
+
+Below are some example test results from the `test_result` directory. These images are resized to 500x500 and are displayed in a 2x2 grid format.
+
+| Gray Spot | Blight |
+|---------|---------|
+| ![Image 1](test_result/1.png) | ![Image 2](test_result/2.png) |
+| <b>Common Rust | <b>Healthy |
+| ![Image 3](test_result/3.png) | ![Image 4](test_result/4.png) |
+
 ## Challenges and Learnings
 Working on this project introduced me to key concepts in Machine Learning and deep learning. Here are some of the challenges and learnings I encountered:
 - **Understanding Machine Learning**: I had to learn about basic machine learning concepts and tools needed for classification tasks.
