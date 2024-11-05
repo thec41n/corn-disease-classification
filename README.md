@@ -38,7 +38,7 @@ Additionally, if you plan to run this project in a Jupyter Notebook or Google Co
 ## Usage
 1. **Clone this repository** to your local machine:
    ```bash
-   git clone https://github.com/yourusername/yourrepository.git
+   git clone https://github.com/thec41n/corn-disease-classification.git
    ```
 
 2. **Download the Dataset**:
